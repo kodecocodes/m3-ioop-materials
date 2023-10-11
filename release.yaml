@@ -1,0 +1,91 @@
+---
+# Video Metadata File
+# The shortcode is shared across versions, but unique between courses.
+shortcode: oop-prototype
+version: 1.0
+version_description: First Version
+title: Object-Oriented Programming
+description_md: |
+  TODO. This can be multiple lines. Just be sure to maintain the indent on
+  subsequent lines. It is interpreted as markdown. This appears on the video
+  course homepage and should include as much detail as possible. This provides
+  context for non-subscribers, subscribers and search engines. Do not just use
+  the short_description.
+short_description: |
+  TODO. This can be multiple lines. Just be sure to maintain the indent on
+  subsequent lines. Don't exceed 160 characters. This is used as the meta description
+  for SEO and social sharing purposes. Keep it short, succint and highlight the
+  most significant parts of the course.
+# Date formatted as yyyy-mm-dd. The version will be available at midnight, UTC.
+released_at: 2050-10-02
+# A link to a specific branch of the materials repo—a public repo hosted on GitHub.
+materials_url: https://github.com/kodecocodes/mmlp-oop-prototype-materials
+# Fill each of these in
+professional: true
+access_personal: true
+access_team: true
+# Choose only one difficulty
+difficulty: intermediate
+# P/L/E Can be overridden on a per-episode basis if required. If not, these will
+# apply for every episode in the course. Please add version numbers, i.e Dart 2.15, Xcode 13, Android Studio 4.2 etc
+platform: TODO
+language: TODO
+editor: TODO
+# Domains and categories are both arrays
+domains:
+  - ios
+# Category choices can be found in the README of this repo.
+categories: [""]
+who_is_this_for_md: |
+  TODO
+covered_concepts_md: |
+  - TODO
+authors:
+  # Roles: instructor, author, materials_author, illustrator, editor, fpe, tech_editor, video_editor, editor (ELE)
+  # Use the rw.com username.
+  - username: TODO
+    role: instructor
+  - username: TODO
+    role: video_editor
+
+# Artwork
+card_artwork_image: ~
+featured_banner_image: ~
+twitter_card_image: ~
+
+
+
+# The list of parts & episodes. At this stage only used for slides, as we don't know what it will look like
+parts:
+  - title: "Part Title Here"
+    description: |
+      This can be multiple lines. Just be sure to maintain the indent on
+      subsequent lines.
+    episodes:
+    - title: "Episode Title Here"
+      ref: "01"
+      # Add the path to your script file in the repo, like this: scripts-slides/01-episode-name-here.md
+      script_file: ~
+      free: true
+    - title: "Episode Title Here"
+      ref: "02"
+      script_file: ~
+      free: false
+    - title: "Episode Title Here"
+      ref: "03"
+      script_file: ~
+      free: false
+  - title: "Part Title Here"
+    description: |
+      This can be multiple lines. Just be sure to maintain the indent on
+      subsequent lines.
+    episodes:
+    - title: "Episode Title Here"
+      ref: "04"
+      script_file: ~
+      free: false
+    - title: "Episode Title Here"
+      ref: "05"
+      script_file: ~
+      free: false
+
