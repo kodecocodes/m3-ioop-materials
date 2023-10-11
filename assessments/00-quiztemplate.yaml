@@ -1,0 +1,27 @@
+assessment_type: quiz
+description_md: |
+  To be displayed in the list of episodes. This can be multi-line 
+  (as long as `|` is used and indendation followed), and uses markdown same as a episode description. Must be a string.
+short_description:  This is used for metadata. But can be removed.
+questions:
+  - question_md: "This is the question. Can use markdown. Must be a string."
+    choices:
+      - ref: "a"
+        option_md: "This is an answer option. You can have any number of these. Must be a string."
+        correct: true/false — by selecting "true" you decide which answer is the correct one. 
+                 False is default, so doesn't need to be specified.
+      - ref: "b"
+        option_md: "This is an answer option."
+      - ref: "c"
+        option_md: "This is an answer option."
+      - ref: "d"
+        option_md: "This is an answer option."
+    explanation_md: |
+      This is the explanation shown to the student when any of the options is clicked. 
+      This can be multi-line (as long as the | is used and indendation followed), 
+      and use markdown same as a episode description. Must be a string.
+    learning_objective: |
+      Specifies which learning objective student should know to be able to answer the question. 
+      This can be multi-line (as long as `|` is used and indendation followed), 
+      and uses markdown same as a episode description. Must be a string.    
+      
