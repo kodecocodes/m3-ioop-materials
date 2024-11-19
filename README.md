@@ -1,7 +1,7 @@
 # Introduction to Object-Oriented Programming: Materials
 
 This repo contains all the downloadable materials and projects associated with the **Introduction to Object-Oriented Programming module** in **[Object-Oriented Programming in iOS Course](https://www.kodeco.com/ios/paths/object-oriented-programming)**.
-This course is part of [Introduction to iOS Program](https://www.kodeco.com/ios/programs/introduction-to-ios), which you can take as on-demand bootcamp from [Kodeco](https://www.kodeco.com).
+This course is part of [Beginning iOS & Swift Program](https://www.kodeco.com/ios/programs/beginning-ios), which you can take as on-demand bootcamp from [Kodeco](https://www.kodeco.com).
 
 Each edition has its own branch, named `versions/[VERSION]`. The default branch for this repo is for the most recent edition.
 
